@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>Login | Admin</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,30 +24,39 @@
 
   <body class="login">
     <div>
-      <a class="hiddenanchor" id="signup"></a>
+     <!-- <a class="hiddenanchor" id="signup"></a> -->
       <a class="hiddenanchor" id="signin"></a>
 
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
+            <div class="logo">
+                <i class="fa fa-circle fa-5x t-color" aria-hidden="true"></i>
+            </div>
             <form>
-              <h1>Login Form</h1>
+              <h1 class="t-color">Welcome Back!</h1>
               <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
+                <input type="text" class="form-control t-custom-form-control" placeholder="Username" required="" />
               </div>
               <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
+                <input type="password" class="form-control t-custom-form-control" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="index.html">Log in</a>
-                <a class="reset_pass" href="#">Lost your password?</a>
+                <div class="row">
+                  <div class="col-md-6">
+                      <a class="reset_pass" href="#">Lost your password?</a>
+                  </div>
+                  <div class="col-md-6">
+                      <a class="btn btn-default submit float-right t-btn" href="index.html">Log in</a>
+                  </div>
+                </div>
               </div>
 
               <div class="clearfix"></div>
 
-              <div class="separator">
+              <!-- <div class="separator">
                 <p class="change_link">New to site?
-                  <a href="#signup" class="to_register"> Create Account </a>
+                  <a href="#signup" class="to_register"> Create Account </a> 
                 </p>
 
                 <div class="clearfix"></div>
@@ -60,9 +69,9 @@
               </div>
             </form>
           </section>
-        </div>
+        </div> -->
 
-        <div id="register" class="animate form registration_form">
+      <!--  <div id="register" class="animate form registration_form">
           <section class="login_content">
             <form>
               <h1>Create Account</h1>
@@ -96,7 +105,7 @@
               </div>
             </form>
           </section>
-        </div>
+        </div> -->
       </div>
     </div>
   </body>
